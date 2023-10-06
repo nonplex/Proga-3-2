@@ -34,7 +34,7 @@ int main()
 	else if ((zyyz > xyyx) && (zyyz > xzzx)) {
 		naib = zyyz;
 	}
-	else if ((xyyx > xzzx) && (xyyx > zyyz)) {
+	else {
 		naib = xyyx;
 	}
 	cout << "Расстояние между минимальным и максимальным значением " << naib;

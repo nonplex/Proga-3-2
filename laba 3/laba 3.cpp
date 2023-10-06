@@ -22,13 +22,13 @@ int main()
 	//Максимальная длина
 	double naib;
 	//Нахождение максимальной длины
-	if ((xzzx > xyyx)&&(xzzx > zyyz)){
+	else if ((xzzx > xyyx)&&(xzzx > zyyz)){
 		naib = xzzx;
 	}
-	if ((zyyz > xyyx) && (zyyz > xzzx)) {
+	else if ((zyyz > xyyx) && (zyyz > xzzx)) {
 		naib = zyyz;
 	}
-	if ((xyyx > xzzx) && (xyyx > zyyz)) {
+	else if ((xyyx > xzzx) && (xyyx > zyyz)) {
 		naib = xyyx;
 	}
 	cout << "Расстояние между минимальным и максимальным значением " << naib;
